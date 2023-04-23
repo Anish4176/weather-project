@@ -33,8 +33,17 @@ body {
 }
 
 .navbar-toggler {
-    background-color: rgb(240, 240, 240);
-    margin-right: 0px;
+    /* background-color: rgb(240, 240, 240);
+    margin-right: 0px; */
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: black;
+    border: 2px solid #ffffff;
+    border-radius: 0.25rem;
+}
+.navbar-toggler-icon{
+    background-color: white
 }
 
 .navbar-nav {
@@ -128,7 +137,8 @@ body {
     margin: 2rem 1.5rem 4rem 1.5rem;
     font-size: 4rem;
     font-family: 'Piazzolla', serif;
-    text-transform: capitalize;
+    text-transform: capitalize;   
+     text-align: center;
 }
 
 .left button {
@@ -153,7 +163,7 @@ body {
 
 footer{
     background-color: black;
-    margin-top: auto;
+    margin-top: auto;;
 }
 
 footer p{
